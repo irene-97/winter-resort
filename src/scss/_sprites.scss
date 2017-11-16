@@ -1,4 +1,45 @@
-$sprites: ();
+$sprites: (
+	"hamburger": (
+		normal: (
+			x: 23,
+			y: 0,
+			width: 18,
+			height: 16,
+			image: "sprites.png",
+			total_width: 41,
+			total_height: 21,
+		),
+		retina: (
+			x: 46,
+			y: 0,
+			width: 36,
+			height: 32,
+			image: "sprites@2x.png",
+			total_width: 82,
+			total_height: 42,
+		),
+	),
+	"search": (
+		normal: (
+			x: 0,
+			y: 0,
+			width: 21,
+			height: 21,
+			image: "sprites.png",
+			total_width: 41,
+			total_height: 21,
+		),
+		retina: (
+			x: 0,
+			y: 0,
+			width: 42,
+			height: 42,
+			image: "sprites@2x.png",
+			total_width: 82,
+			total_height: 42,
+		),
+	),
+);
 
 @each $name in map-keys($sprites) {
 	.sprite-#{$name} {
