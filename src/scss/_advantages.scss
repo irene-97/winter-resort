@@ -1,0 +1,28 @@
+.advantages {
+	margin-top: 30px;
+	padding-bottom: 50px;
+
+	&__list {
+		display: flex;
+		margin: 41px -8px 0 -8px;
+
+		&__item {
+			margin: 15px;
+			width: calc(#{percentage(1 / 4)} - 30px);
+			font-size: 18px;
+			text-align: center;
+
+			&__title {
+				margin-top: 33px;
+				font-weight: 600;
+			}
+
+			&__text {
+				margin-top: 34px;
+				font-size: 14px;
+				line-height: 24px;
+				color: rgba($color-river-bed, 0.35);
+			}
+		}
+	}
+}
