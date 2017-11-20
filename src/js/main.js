@@ -4,3 +4,4 @@ svg4everybody();
 // @include('globals.js')
 // @include('hamburger.js')
 // @include('search.js')
+// @include('menu.js')
