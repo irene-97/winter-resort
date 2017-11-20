@@ -3,4 +3,12 @@
 	font-size: 48px;
 	text-align: center;
 	color: $color-black;
+
+	@media (max-width: 880px) {
+		font-size: 36px;
+	}
+
+	@media (max-width: 480px) {
+		font-size: 30px;
+	}
 }

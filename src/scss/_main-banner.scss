@@ -7,4 +7,12 @@
 	.button-wrapper {
 		margin-top: 63px;
 	}
+
+	@media (max-width: 880px) {
+		height: 885px;
+	}
+
+	@media (max-width: 550px) {
+		height: 785px;
+	}
 }
