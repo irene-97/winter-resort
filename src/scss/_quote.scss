@@ -1,0 +1,55 @@
+.quote {
+	background: $color-whisper;
+
+	.container {
+		display: flex;
+	}
+
+	.col-1 {
+		flex-grow: 1;
+	}
+
+	.col-2 {
+		flex-grow: 1;
+	}
+
+	&__snowflake {
+		z-index: -1;
+		width: 674px;
+		height: 623px;
+		background: url("../images/snowflake3.png") center no-repeat;
+		background-size: cover;
+	}
+
+	&__text {
+		margin-top: 201px;
+		padding-left: 5px;
+		width: 540px;
+
+		&__title {
+			font-weight: 500;
+			font-size: 48px;
+			color: $color-radical-red;
+		}
+
+		&__description {
+			margin-top: 31px;
+			font-size: 16px;
+			line-height: 36px;
+			color: rgba($color-river-bed, 0.35);
+		}
+
+		&__author {
+			margin-top: 68px;
+
+			&__name {
+				margin-bottom: 6px;
+				font-weight: 500;
+			}
+
+			&__status {
+				color: rgba($color-river-bed, 0.35);
+			}
+		}
+	}
+}
