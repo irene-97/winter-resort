@@ -17,6 +17,10 @@
 			&__title {
 				margin-top: 33px;
 				font-weight: 600;
+
+				@media (max-width: 480px) {
+					margin-top: 11px;
+				}
 			}
 
 			&__text {
@@ -24,6 +28,10 @@
 				font-size: 14px;
 				line-height: 24px;
 				color: rgba($color-river-bed, 0.35);
+
+				@media (max-width: 480px) {
+					margin-top: 7px;
+				}
 			}
 
 			@media (max-width: 900px) {

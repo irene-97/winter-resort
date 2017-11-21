@@ -4,6 +4,10 @@
 
 	.block-subtitle {
 		margin-top: 111px;
+		
+		@media (max-width: 590px) {
+			margin-top: 50px;
+		}
 	}
 
 	.button-wrapper {
