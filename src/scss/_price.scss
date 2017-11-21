@@ -9,4 +9,21 @@
 	.button-wrapper {
 		margin-top: 83px;
 	}
+
+	@media (max-width: 1250px) {
+		height: 1052px;
+		background-size: cover;
+	}
+
+	@media (max-width: 1050px) {
+		height: 908px;
+	}
+
+	@media (max-width: 780px) {
+		height: 632px;
+	}
+
+	@media (max-width: 450px) {
+		height: 474px;
+	}
 }
